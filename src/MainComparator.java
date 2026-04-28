@@ -1,8 +1,7 @@
 import java.util.*;
-
 public class MainComparator {
     public static void main(String[] args) {
-        List<Shape> shapes = new ArrayList<>();
+        List<ShapeResizeable> shapes = new ArrayList<>();
         shapes.add(new Circles(5.0));
         shapes.add(new Circles(2.0));
         shapes.add(new Circles(8.0));
